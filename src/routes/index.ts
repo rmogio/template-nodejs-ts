@@ -1,7 +1,8 @@
-import { Router } from 'express';
+import express, { Router } from 'express';
 
 const routes = Router();
+routes.use(express.json());
 
-// routes.use('/rotas', router);
+// routes.use('/rota', router);
 
 export default routes;
